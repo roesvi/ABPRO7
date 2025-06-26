@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 30px;
+  background-color: antiquewhite;
+  font-family: "Savate", monospace;
+}
+a:hover {
+  color: black;
+  font-size: 20px;
+}
+h1 {
+  color: blue;
+  margin-bottom: 20px;
+}
+h1:hover {
+  color: brown;
+  transform: scale(1.5);
+}
+
+h2 {
+  color: green;
+  margin-bottom: 20px;
+}
+h2:hover {
+  color: brown;
+}
+
+img {
+  width: 200px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #ff6b6b;
+}
+.logo > img {
+  width: 50px;
+}
+
+/* Para teléfonos móviles: */
+p {
+    background-color: chocolate;
+  }
+  div {
+    background-color: skyblue;
+  }
+
+@media only screen and (min-width: 600px) {
+  /* Para tabletas: */
+  p {
+    background-color: yellowgreen;
+  }
+  div {
+    background-color: aqua;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Para equipos de escritorio: */
+  p {
+    background-color: aqua;
+  }
+  div {
+    background-color: yellowgreen;
+  }
+}
+
+#pFechayHoraActual {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: chocolate;
+}
